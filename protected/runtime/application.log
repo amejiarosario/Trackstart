@@ -1,0 +1,60 @@
+2011/06/26 21:56:14 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /var/www/yii/framework/gii/GiiModule.php:163
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(255): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /var/www/yii/framework/web/CWebApplication.php(277): CController->run('')
+#2 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('gii')
+#3 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /var/www/trackstar/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/trackstar/index.php?r=gii
+2011/06/27 00:42:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /var/www/yii/framework/gii/GiiModule.php:163
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(255): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /var/www/yii/framework/web/CWebApplication.php(277): CController->run('')
+#2 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('gii')
+#3 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /var/www/trackstar/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/trackstar/index.php?r=gii
+2011/06/27 00:42:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /var/www/yii/framework/gii/GiiModule.php:163
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(255): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /var/www/yii/framework/web/CWebApplication.php(277): CController->run('')
+#2 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('gii')
+#3 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /var/www/trackstar/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/trackstar/index.php?r=gii
+2011/06/27 00:45:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /var/www/yii/framework/gii/GiiModule.php:163
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(255): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /var/www/yii/framework/web/CWebApplication.php(277): CController->run('')
+#2 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('gii')
+#3 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /var/www/trackstar/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/trackstar/index.php?r=gii
+2011/06/27 00:45:13 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /var/www/yii/framework/gii/GiiModule.php:163
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(255): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /var/www/yii/framework/web/CWebApplication.php(277): CController->run('')
+#2 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('gii')
+#3 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /var/www/trackstar/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/trackstar/index.php?r=gii
+2011/06/27 00:45:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /var/www/yii/framework/gii/GiiModule.php:163
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(255): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /var/www/yii/framework/web/CWebApplication.php(277): CController->run('')
+#2 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('gii')
+#3 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /var/www/trackstar/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/trackstar/index.php?r=gii
+2011/06/27 00:46:21 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /var/www/yii/framework/gii/GiiModule.php:163
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(255): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /var/www/yii/framework/web/CWebApplication.php(277): CController->run('')
+#2 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('gii')
+#3 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /var/www/trackstar/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/trackstar/index.php?r=gii
+2011/06/27 00:50:49 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'trackstar_dev.project' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `project`.
+in /var/www/trackstar/index.php (13)
+2011/06/30 21:11:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'trackstar_dev.tbl_users' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `tbl_users`.
+in /var/www/trackstar/index.php (13)
